@@ -1,0 +1,2 @@
+INSERT INTO projectsDB(projName, deployLink, image, createdAt, updatedAt)
+VALUES("Weather Tracker", "https://weilibryan.github.io/Weather-Tracker/" ,"assets/images/weather.PNG" ,"2020-01-01 10:10:10", "2020-01-01 10:10:10");

@@ -20,34 +20,18 @@
     </div>
 
 
-
     <div class="content">
         <div class="container">
-            <div class="row text-center">
-                <div class="col-sm-12" style="font-weight: bold; font-size: 5vh;">
-                    ABOUT ME
+            {{#each proj}}
+            <div class="card" style="width: 100%; background-color: #a6b1e1; color: white; text-align:center">
+                <div class="card-body">
+                    <h3 class="card-title">{{projName}}</h3>
+                    <img src="{{image}}"><br><br>
+                    <a href="{{deployLink}}" class="btn btn-primary">Deployed Site</a>
                 </div>
             </div>
-
             <br>
-
-            <div class="row">
-                <div class="col-sm-6">
-                    <img src="assets/images/image.jpg" class="rounded profPic">
-                </div>
-
-
-                <div class="col-sm-6 bio">
-                    <p>
-                        <br><br><br>
-                        Aspring full-stack web dev
-                        <br> Currently residing in Reno, NV
-                        <br> Pretty good at Javascript
-                    </p>
-                </div>
-            </div>
-
-
+            {{/each}}
         </div>
     </div>
 
