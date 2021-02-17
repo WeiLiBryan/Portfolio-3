@@ -75,3 +75,24 @@ img {
     width:100%;
     height:100%;
 }
+
+@media screen and (max-width: 400px) {
+    .wrapper {
+        display: inline-block;
+        justify-content: none;
+    }
+
+    .content {
+        padding:none;
+        width:auto;
+        top: auto;
+    }
+
+    .sidebar {
+        position: relative;
+        top:auto;
+        left: auto;
+        width: auto;
+    }
+    
+}
